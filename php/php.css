@@ -3,6 +3,12 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: #2a2a2a; 
+}
+.container{
+    max-width: 1600px;
+}
 header{
     background-color: rgb(155, 155, 247);
     color: white;
@@ -35,4 +41,25 @@ header{
     display: inline-block;
     margin-left: 550px;
     width: 350px;
+}
+section {
+    background-color: white;
+    padding: 10px; 
+    width: 1095px;
+    height: 800px;
+    margin-left: 50px;
+    display: block;
+}
+.top-section-right{
+    text-align: right;
+    margin-right: 70px;
+}
+.main-section-top,
+.main-section-right{
+    text-align: right;
+    margin-right: 70px;
+}
+.top-section {
+    margin: 0; 
+    padding: 10px 50px;
 }
